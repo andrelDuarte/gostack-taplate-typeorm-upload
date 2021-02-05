@@ -1,11 +1,11 @@
-import { MigrationInterface, QueryRunner, Table } from 'typeorm';
+import { MigrationInterface, Table, QueryRunner } from 'typeorm';
 
-// eslint-disable-next-line import/prefer-default-export
-export class CreateTrasactions1611803264092 implements MigrationInterface {
+export default class createCategories1612146752343
+  implements MigrationInterface {
   public async up(queryRunner: QueryRunner): Promise<void> {
     await queryRunner.createTable(
       new Table({
-        name: 'transaction',
+        name: 'Categories',
         columns: [
           {
             name: 'id',
@@ -40,6 +40,6 @@ export class CreateTrasactions1611803264092 implements MigrationInterface {
   }
 
   public async down(queryRunner: QueryRunner): Promise<void> {
-    await queryRunner.dropTable('transacions');
+    await queryRunner.dropTable('categories');
   }
 }
