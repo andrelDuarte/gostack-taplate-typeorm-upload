@@ -19,6 +19,10 @@ export default class createCategories1612146752343
             type: 'varchar',
           },
           {
+            name: 'type',
+            type: 'varchar',
+          },
+          {
             name: 'value',
             type: 'decimal',
             precision: 10,

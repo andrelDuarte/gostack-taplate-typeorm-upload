@@ -19,6 +19,10 @@ export class CreateTrasactions1611803264092 implements MigrationInterface {
             type: 'varchar',
           },
           {
+            name: 'type',
+            type: 'varchar',
+          },
+          {
             name: 'value',
             type: 'decimal',
             precision: 10,
