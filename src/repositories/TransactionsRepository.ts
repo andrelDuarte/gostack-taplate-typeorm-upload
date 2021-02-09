@@ -27,6 +27,7 @@ class TransactionsRepository extends Repository<Transaction> {
           default:
             break;
         }
+
         return accumulator;
       },
       {
