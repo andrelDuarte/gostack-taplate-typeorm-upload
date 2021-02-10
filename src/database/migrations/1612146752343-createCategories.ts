@@ -18,16 +18,7 @@ export default class createCategories1612146752343
             name: 'title',
             type: 'varchar',
           },
-          {
-            name: 'type',
-            type: 'varchar',
-          },
-          {
-            name: 'value',
-            type: 'decimal',
-            precision: 10,
-            scale: 2,
-          },
+
           {
             name: 'created_at',
             type: 'timestamp',
